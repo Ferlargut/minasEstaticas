@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">    
+    <title>Busca Minas</title>
+</head>
+<body>
+    <h1>Busca Minas</h1>
+    <table>
+        <tr>
+            <td><button onclick="recorrerNumeros();return false" class="numero" style='width:25px; height:25px' value="2"></button></td>
+            <td><button onclick="recorrerNumeros();return false" class="numero" style='width:25px; height:25px' value="2"></button></td>
+            <td><button onclick="recorrerNumeros();return false" class="numero" style='width:25px; height:25px' value="2"></button></td>
+            <th class="bomba"><button class="explotar" style='width:25px; height:25px'>bomba</button></th>
+            
+        </tr>
+        <tr>
+            <th class="bomba"><button class="explotar" style='width:25px; height:25px'>bomba</button></th>
+            <th class="bomba"><button class="explotar" style='width:25px; height:25px'>bomba</button></th>
+            <td><button onclick="recorrerNumeros();return false" class="numero" style='width:25px; height:25px' value="2"></button></td>
+            <td><button onclick="recorrerNumeros();return false" class="numero" style='width:25px; height:25px' value="1"></button></td>
+        </tr>
+        <tr>
+            <td><button onclick="recorrerNumeros();return false" class="numero" style='width:25px; height:25px' value="2"></button></td>
+            <td><button onclick="recorrerNumeros();return false" class="numero" style='width:25px; height:25px' value="2"></button></td>
+            <td><button onclick="recorrerNumeros();return false" class="numero" style='width:25px; height:25px' value="2"></button></td>
+            <td><button onclick="recorrerNumeros();return false" class="numero" style='width:25px; height:25px' value="1"></button></td>
+        </tr>
+        <tr>
+            <td class="celdas"><button id="celdasVacias1" style='width:25px; height:25px'></button></td>
+            <td class="celdas"><button id="celdasVacias2" style='width:25px; height:25px'></button></td>
+            <td><button onclick="recorrerNumeros();return false" class="numero" style='width:25px; height:25px' value="1"></button></td>
+            <th class="bomba"><button class="explotar" style='width:25px; height:25px'>bomba</button></th>
+        </tr>
+    </table>
+    <script src="/home/alumna40/Escritorio/buscaMinas/minas.js"></script>
+</body>
+</html>
